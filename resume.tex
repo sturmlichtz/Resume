@@ -1,0 +1,171 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}
+    \textbf{\Huge \scshape Roshan Bhoir} \\ \vspace{1pt}
+    \small 9619442831 $|$ \href{mailto:x@x.com}{\underline{roshanrbhoir@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/sturmlichtz}{\underline{linkedin.com/sturmlichtz/}} $|$
+    \href{https://github.com/sturmlichtz}{\underline{github.com/sturmlichtz}}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Junior Software Developer}{Jul 2021 -- Present}
+      {Finacus Solutions}{Mumbai, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Developed a REST API using .NET Core and SQL to register Insta Cards}
+        \resumeItem{Implemented New featurs in a Mobile Baking, Card Management, AML Staff Portals using WCF, Silverlight, SQL and IIS}
+        \resumeItem{Implemented New featurs in The CBS interface using web services. }
+        \resumeItem{Developed Various Reports using .FastReport NET, RDLC}
+        \resumeItem{Implemented New featurs in BBPS Staff Portal using ASP.NET }
+        \resumeItem{Implemented New featurs AML Process Channel Console }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C\#, XAML, Python, JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: WCF,ASP.NET(Web Forms, Web API, MVC), .NET Core(Web API), Silverlight} \\
+     \textbf{Developer Tools}{: Git, IIS Web Server, VS Code, Visual Studio, SQL Server Management Studio, Google Cloud Platform} \\
+     \textbf{Libraries}{: FastReport .NET, NHibernate, RDLC Reports}\\
+     \textbf{Databases}{: SQL Server, Oracle} \\
+    }}
+ \end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Web Project On Norse Mythology} $|$ \emph{HTML, CSS, PHP}}{2019}
+          \resumeItemListStart
+            \resumeItem{Designed a website using HTML,CSS, and Bootstrap}
+            \resumeItem{Implemented ability to allow users to send feedback using PHPMailer .}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Chat GPT Clinet } $|$ \emph{C\#, .NET, OpenAI API}}{2022}
+          \resumeItemListStart
+            \resumeItem{Developed a Consoolw Application which inetegrated OpenAI API for chatGPT }
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+
+ %-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Mumbai University  - A.C. Patil College of Engineering}{Navi Mumbai, Maharashtra}
+      {B.E. in Information Technology }{Dec. 2020}
+    \resumeSubheading
+      {Government Polytechnic, Thane }{Thane, Maharashtra}
+      {Diploma in Information Technology}{Jun. 2017}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
